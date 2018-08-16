@@ -35,7 +35,7 @@
         <framework src="com.android.support:support-v4:27.0.2" />
         <framework src="com.android.support:appcompat-v7:26.0.1" />
     </platform>
-<!--<platform name="ios">
+    <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Device">
                 <param name="ios-package" value="CDVDevice"/>
@@ -43,5 +43,5 @@
         </config-file>
         <header-file src="src/ios/CDVDevice.h" />
         <source-file src="src/ios/CDVDevice.m" />
-    </platform>-->
+    </platform>
 </plugin>
